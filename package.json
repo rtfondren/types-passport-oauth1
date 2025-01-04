@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "name": "@types/passport-oauth1",
+    "version": "1.3.9999",
+    "projects": [
+        "https://github.com/jaredhanson/passport-oauth1#readme"
+    ],
+    "devDependencies": {
+        "@types/passport-oauth1": "workspace:."
+    },
+    "owners": [
+        {
+            "name": "rtfondren",
+            "githubUsername": "rtfondren"
+        }
+    ],
+    "dependencies": {
+        "@types/express": "^5.0.9999",
+        "@types/oauth": "^0.9.9999",
+        "@types/passport": "^1.0.9999"
+    }
+}
